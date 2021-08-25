@@ -165,10 +165,11 @@ align-items: flex-start;
 display: flex;
 justify-content: space-around;
 color: bisque;
+
 }
 .main_layer .middle_layer p,
 .main_layer .middle_layer .fa{
-	font-size: 7rem;
+	font-size: 5.5rem;
 	font-weight: 900;
 }
 .fa{
@@ -176,7 +177,7 @@ color: rgb(240, 255, 255);
 }
 sup{
 	font-size: 6rem;
-	margin-top: -2rem;
+	/* margin-top: -1rem; */
 }
 .data_hide{
 	visibility: hidden;
@@ -186,7 +187,7 @@ sup{
 footer{
 	width: 100%;
 	background: #022544;
-	color: aliceblue;
+	color: #f1f2f6;
   margin-top: auto;
 }
 footer p{
