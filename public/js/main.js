@@ -21,12 +21,12 @@ const datahide = document.querySelector(".middle_layer")
 
 		     try {
 
-			let url =`http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&appid=a6e5920057d8b0a0a41d2d50dcd53468 `
+			let url =`https://api.openweathermap.org/data/2.5/weather?q=${cityVal}&appid=a6e5920057d8b0a0a41d2d50dcd53468 `
 
 		    const response =await fetch(url);
    //console.log(url);
 		const data = await response.json();
-	//	console.log(data);
+		//console.log(data);
 	        const arrData = [data];
 	city_name.innerText=`${arrData[0].name} , ${arrData[0].sys.country}`;
 	// temp.innerText= arrData[0].main.temp;
